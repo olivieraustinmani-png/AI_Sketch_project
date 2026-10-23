@@ -141,7 +141,7 @@ class MainWindow(QMainWindow):
         QLabel#navActive { color:#fff; background:#2b3b56; border:1px solid #425573; border-radius:10px; padding:12px 10px; font-weight:600; }
         QLabel#category { color:#ccd4e1; padding:8px 9px; font-size:13px; }
         QLabel#sideNote { color:#b3bfd0; background:#21324e; border:1px solid #30435f; border-radius:12px; padding:13px; line-height:1.4; }
-        QLabel#version { color:#73819a; font-size:9px; padding:10px 1px 0; }
+        QLabel#version { color:#73819b; font-size:9px; padding:10px 1px 0; }
         QLabel#title { color:#17243b; font-size:25px; font-weight:750; }
         QLabel#subtitle { color:#78859a; font-size:13px; }
         QLabel#badge { color:#526b99; background:#e9eef8; border:1px solid #d9e1f0; border-radius:12px; padding:8px 11px; font-size:10px; font-weight:700; }
