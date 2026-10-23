@@ -1,0 +1,51 @@
+{
+  "samples_total": 600,
+  "train": 420,
+  "validation": 90,
+  "test": 90,
+  "test_accuracy": 0.6777777777777778,
+  "backend": "numpy",
+  "model_file": "ai_sketch_model.npz",
+  "per_class": {
+    "house": {
+      "precision": 0.9333333333333333,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.9333333333333333,
+      "support": 15
+    },
+    "tree": {
+      "precision": 0.8666666666666667,
+      "recall": 0.8666666666666667,
+      "f1-score": 0.8666666666666667,
+      "support": 15
+    },
+    "car": {
+      "precision": 0.5909090909090909,
+      "recall": 0.8666666666666667,
+      "f1-score": 0.7027027027027029,
+      "support": 15
+    },
+    "cat": {
+      "precision": 1.0,
+      "recall": 0.13333333333333333,
+      "f1-score": 0.23529411764705882,
+      "support": 15
+    },
+    "sun": {
+      "precision": 0.7058823529411765,
+      "recall": 0.8,
+      "f1-score": 0.7500000000000001,
+      "support": 15
+    },
+    "unknown": {
+      "precision": 0.3684210526315789,
+      "recall": 0.4666666666666667,
+      "f1-score": 0.4117647058823529,
+      "support": 15
+    }
+  },
+  "unknown_recall": 0.4666666666666667,
+  "open_set_threshold": 0.3025386333465576,
+  "validation_accuracy": 0.6222222222222222,
+  "validation_unknown_recall": 0.6
+}

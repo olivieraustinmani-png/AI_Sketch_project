@@ -1,0 +1,4 @@
+# Dépendances d'exécution de l'interface (Python 3.11 à 3.14)
+PyQt5==5.15.11
+numpy>=2.1
+Pillow>=10.0

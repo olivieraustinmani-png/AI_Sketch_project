@@ -1,0 +1,4 @@
+# Environnement séparé d'entraînement : Python 3.11 ou 3.12 recommandé
+-r requirements.txt
+tensorflow>=2.16,<2.20
+scikit-learn>=1.4
